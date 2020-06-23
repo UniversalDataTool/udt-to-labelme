@@ -1,0 +1,9 @@
+node_modules
+output
+.vscode
+package-lock.json
+yarn.lock
+new-labelme.json
+new-udt.json
+index.html
+*.test.js

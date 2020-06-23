@@ -1,0 +1,37 @@
+{
+  "name": "udt-labelme-converter",
+  "version": "0.1.5",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "udt-labelme-converter": "./cli.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "image-size": "^0.8.3",
+    "probe-image-size": "^5.0.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "rimraf": "^3.0.2"
+  },
+  "description": "```json {     \"version\": \"4.5.0\",     \"flags\": \"\",     \"shapes\": \"\",     \"imagePath\": \"\",     \"imageData\": \"\",     \"imageHeight\": \"\",     \"imageWidth\": \"\" } ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puskuruk/udt-labelme-converter.git"
+  },
+  "keywords": [
+    "labelme",
+    "udt",
+    "universal-data-tool"
+  ],
+  "author": "TEU",
+  "bugs": {
+    "url": "https://github.com/puskuruk/udt-labelme-converter/issues"
+  },
+  "homepage": "https://github.com/puskuruk/udt-labelme-converter#readme"
+}
