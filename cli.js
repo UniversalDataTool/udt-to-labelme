@@ -8,7 +8,7 @@ if(argv.output) outputFolder = argv.output
 if(!inputFile){
     console.log(' You need to give an input file to convert\n For example: node index.js --input=my-precious-samples.json')
 }else{
-    const jsonFile = require(`./${inputFile}`)
+    const jsonFile = JSON.parse(fs.readFileSync(inputFile).toString())
 
     const jsonFileKeys = Object.keys(jsonFile)
     jsonFileKeys.map(jsonFileKey => jsonFileKey.toLowerCase())
