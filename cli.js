@@ -2,10 +2,11 @@
 const argv = require('yargs').argv
 const { labelme2Udt, udt2Labelme } = require('./index')
 const fs = require('fs')
+const path = require('path')
 
-let outputFolder = 'output'
+let outputFolder = path.relative(process.cwd(), 'output')
 const inputFile = argv.input
-if(argv.output) outputFolder = argv.output
+if(argv.output) outputFolder =  path.relative(process.cwd(), argv.output)
 if(!inputFile){
     console.log(' You need to give an input file to convert\n For example: node index.js --input=my-precious-samples.json')
 }else{
