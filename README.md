@@ -1,5 +1,5 @@
 # Run script
-`npx udt-labelme-converter convert -- --input=my-precious-samples.json --output=output`
+`npx udt-labelme-converter --input=my-precious-samples.json --output=where-i-want-to-see-my-output-files`
 
 # Example Labelme Format
 
@@ -8,21 +8,21 @@
     "version": "4.5.0",
     "flags": "",
     "shapes": {
-        "label": "undefined",
+        "label": "my_lovely_box",
         "points": [
-            ["x", "y"],
-            ["x", "y"],
-            ["x", "y"],
-            ["x", "y"]
+            [160, 120],
+            [210, 190],
+            [100,30],
+            [32, 70]
         ],
         "shape_type": "polygon",
         "group_id": null,
         "flags": {}
     },
-    "imagePath": "",
-    "imageData": "",
-    "imageHeight": "",
-    "imageWidth": ""
+    "imagePath": "./image.jpeg",
+    "imageData": "base64String",
+    "imageHeight": 330,
+    "imageWidth": 450
 }
 ```
 * version:
