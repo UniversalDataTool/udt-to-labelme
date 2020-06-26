@@ -1,5 +1,5 @@
 # Run script
-`npx udt-labelme-converter convert -- --input=my-precious-samples.json --output=output`
+`npx udt-labelme-converter --input=my-precious-samples.json --output=where-i-want-to-see-my-output-files`
 
 # Example Labelme Format
 

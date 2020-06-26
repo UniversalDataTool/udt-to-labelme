@@ -8,7 +8,7 @@ let outputFolder = path.relative(process.cwd(), 'output')
 const inputFile = argv.input
 if(argv.output) outputFolder =  path.relative(process.cwd(), argv.output)
 if(!inputFile){
-    console.log(' You need to give an input file to convert\n For example: node index.js --input=my-precious-samples.json')
+    console.log(' You need to give an input file to convert\n For example: npx udt-labelme-converter --input=my-precious-samples.json --output=where-i-want-to-see-my-output-files')
 }else{
     const jsonFile = JSON.parse(fs.readFileSync(inputFile).toString())
 
