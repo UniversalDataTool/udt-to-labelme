@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const argv = require('yargs').argv
 const { labelme2Udt, udt2Labelme } = require('./index')
+const fs = require('fs')
 
 let outputFolder = 'output'
 const inputFile = argv.input
