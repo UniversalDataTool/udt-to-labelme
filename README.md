@@ -15,4 +15,4 @@ npx udt-labelme-converter --input=my-udt-file.udt.json --output=labelme-files
 npx udt-labelme-converter --input=labelme-files --output=my-udt-file.udt.json
 ```
 
-To see more information about how [LabelMe formats files, check out the wiki page](https://github.com/UniversalDataTool/udt-labelme-converter/wiki/LabelMe-Format)
+To see more information about how [LabelMe formats files, check out the wiki page](https://github.com/UniversalDataTool/udt-labelme-converter/wiki/LabelMe-Format). The [Universal Data Tool format `.udt.json` is documented here.](https://github.com/UniversalDataTool/udt-format)
