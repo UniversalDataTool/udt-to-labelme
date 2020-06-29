@@ -1,50 +1,17 @@
-# Run script
-`npx udt-labelme-converter --input=my-precious-samples.json --output=where-i-want-to-see-my-output-files`
+# Universal Data Tool to LabelMe Converter
 
-# Example Labelme Format
+Convert UDT Files into LabelMe files and vice versa.
 
-```json
-{
-    "version": "4.5.0",
-    "flags": "",
-    "shapes": {
-        "label": "my_lovely_box",
-        "points": [
-            [160, 120],
-            [210, 190],
-            [100,30],
-            [32, 70]
-        ],
-        "shape_type": "polygon",
-        "group_id": null,
-        "flags": {}
-    },
-    "imagePath": "./image.jpeg",
-    "imageData": "base64String",
-    "imageHeight": 330,
-    "imageWidth": 450
-}
+# Getting Started
+
+You use `udt-labelme-converter` directly with `npx` without global installation.
+
+```bash
+# Convert a UDT file into a LabelMe directory
+npx udt-labelme-converter --input=my-udt-file.udt.json --output=labelme-files
+
+# Convert a LabelMe directory into a UDT file
+npx udt-labelme-converter --input=labelme-files --output=my-udt-file.udt.json
 ```
-* version:
-    * It gives an information about Labelme version.
-* flags:
-  * Flags for label.
-* shapes:
-  * label:
-    * It contains string label
-  * points:
-    * It's an array of points which contains x and y
-  * shape_type:
-    * It defines type of shape you made on image.
-  * group_id:
-    * Every label group has their unique color. This is for specifying label group. 
-  * flags:
-    * It's an flags object.
-* imagePath:
-  * It's file path of image used for labelling.
-* imageData:
-  * It's base64 version of image used for labelling.
-* imageHeight:
-  * It's exact height of image used for labelling.
-* imageWidth:
-  * It's exact width of image used for labelling.
+
+To see more information about how [LabelMe formats files, check out the wiki page](https://github.com/UniversalDataTool/udt-labelme-converter/wiki/LabelMe-Format)
