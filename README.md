@@ -1,6 +1,7 @@
 # Universal Data Tool to LabelMe Converter
 
-Convert UDT Files into LabelMe files and vice versa.
+Convert UDT Files into LabelMe files and vice versa. This is helpful if you're using the [Universal Data Tool](https://universaldatatool.com) for labeling files and need to convert to labelme to work with other programs,
+or vice versa.
 
 # Getting Started
 
