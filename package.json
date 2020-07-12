@@ -23,7 +23,7 @@
   "description": "```json {     \"version\": \"4.5.0\",     \"flags\": \"\",     \"shapes\": \"\",     \"imagePath\": \"\",     \"imageData\": \"\",     \"imageHeight\": \"\",     \"imageWidth\": \"\" } ```",
   "repository": {
     "type": "git",
-    "url": "git@github.com:UniversalDataTool/udt-labelme-converter.git"
+    "url": "https://github.com/UniversalDataTool/udt-labelme-converter.git"
   },
   "keywords": [
     "labelme",
