@@ -1,5 +1,5 @@
 {
-  "name": "udt-labelme-converter",
+  "name": "udt-to-labelme",
   "version": "0.1.7",
   "main": "index.js",
   "license": "MIT",
@@ -7,7 +7,7 @@
     "test": "ava"
   },
   "bin": {
-    "udt-labelme-converter": "./cli.js"
+    "udt-to-labelme": "./cli.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -20,19 +20,18 @@
     "ava": "^3.9.0",
     "rimraf": "^3.0.2"
   },
-  "description": "```json {     \"version\": \"4.5.0\",     \"flags\": \"\",     \"shapes\": \"\",     \"imagePath\": \"\",     \"imageData\": \"\",     \"imageHeight\": \"\",     \"imageWidth\": \"\" } ```",
+  "description": "Convert Universal Data Tool dataset.udt.json into the labelme format",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UniversalDataTool/udt-labelme-converter.git"
+    "url": "https://github.com/UniversalDataTool/udt-to-labelme.git"
   },
   "keywords": [
     "labelme",
     "udt",
     "universal-data-tool"
   ],
-  "author": "TEU",
   "bugs": {
-    "url": "https://github.com/UniversalDataTool/udt-labelme-converter/issues"
+    "url": "https://github.com/UniversalDataTool/udt-to-labelme/issues"
   },
-  "homepage": "https://github.com/UniversalDataTool/udt-labelme-converter#readme"
+  "homepage": "https://github.com/UniversalDataTool/udt-to-labelme#readme"
 }
